@@ -1,0 +1,14 @@
+feature_name,feature_type,data_type,min_value,max_value,mean_value,std_value,missing_values,unique_values
+Time_spent_Alone,behavioral,float64,0.0,10.0,4.13375796178344,3.322147139849999,0,11
+Social_event_attendance,behavioral,float64,0.0,10.0,4.213773885350318,2.8736989280540017,0,11
+Going_outside,behavioral,float64,0.0,7.0,3.198646496815287,2.2166485117149093,0,8
+Friends_circle_size,behavioral,float64,0.0,10.0,5.962181528662421,3.3702500090565346,0,11
+Post_frequency,behavioral,float64,0.0,10.0,3.8105095541401273,2.9153600109654927,0,11
+Social_Activity_Score,engineered,float64,0.0,9.0,3.7409766454352438,2.4090809295394218,0,28
+Introversion_Score,engineered,float64,0.0,10.0,4.270700636942675,4.246140057711658,0,21
+Social_Comfort,engineered,float64,0.0,10.0,5.809514331210191,4.006073774136567,0,17
+Digital_vs_Physical_Social,engineered,float64,-6.0,6.0,-0.40326433121019106,2.2132878851694877,0,13
+Social_Energy_Balance,engineered,float64,-5.0,10.0,2.0461783439490446,5.1060690149453585,0,16
+Has_Stage_Fear,binary,int64,0.0,1.0,0.4343152866242038,0.4957654305453866,0,2
+Gets_Drained_Socializing,binary,int64,0.0,1.0,0.43351910828025475,0.4956592507203839,0,2
+Is_Introvert,binary,int64,0.0,1.0,0.4359076433121019,0.49597388621553984,0,2

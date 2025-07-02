@@ -1,0 +1,41 @@
+{
+  "original_dataset_path": "..\\data\\processed\\raw_personality_data.csv",
+  "target_column": "Personality",
+  "behavioral_features": [
+    "Time_spent_Alone",
+    "Social_event_attendance",
+    "Going_outside",
+    "Friends_circle_size",
+    "Post_frequency"
+  ],
+  "psychological_features": [
+    "Stage_fear",
+    "Drained_after_socializing"
+  ],
+  "engineered_features": [
+    "Social_Activity_Score",
+    "Introversion_Score",
+    "Social_Comfort",
+    "Digital_vs_Physical_Social",
+    "Social_Energy_Balance"
+  ],
+  "binary_features": [
+    "Has_Stage_Fear",
+    "Gets_Drained_Socializing",
+    "Is_Introvert"
+  ],
+  "original_samples": 2512,
+  "final_samples": 2512,
+  "missing_values_handled": true,
+  "outliers_detected": 0,
+  "class_balance_ratio": 1.2940639269406393,
+  "balancing_applied": false,
+  "processing_steps": [
+    "duplicate_removal",
+    "categorical_standardization",
+    "range_validation",
+    "missing_value_imputation",
+    "feature_engineering",
+    "no_balancing_needed"
+  ]
+}

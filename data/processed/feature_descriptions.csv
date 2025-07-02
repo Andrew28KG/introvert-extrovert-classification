@@ -1,0 +1,16 @@
+Feature,Description
+Time_spent_Alone,Hours spent alone per day (0-10)
+Stage_fear,Has stage fear (Yes/No)
+Social_event_attendance,Frequency of social event attendance (0-10)
+Going_outside,Frequency of going outside (0-10)
+Drained_after_socializing,Gets drained after socializing (Yes/No)
+Friends_circle_size,Number of friends in circle
+Post_frequency,Social media posting frequency (0-10)
+Personality,Personality type (Extrovert/Introvert) - TARGET
+Social_Activity_Score,Engineered: Average social activity level
+Introversion_Score,Engineered: Tendency towards introversion
+Social_Comfort,Engineered: Comfort level in social situations
+Digital_Engagement,Engineered: Level of digital/social media engagement
+Has_Stage_Fear,Engineered: Binary encoding of stage fear
+Gets_Drained_Socializing,Engineered: Binary encoding of social drain
+Is_Introvert,Engineered: Binary encoding of personality (target)
