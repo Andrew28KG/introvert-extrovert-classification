@@ -115,9 +115,9 @@ personality-discovery-hub/
 
 Feel free to submit issues and pull requests. For major changes, please open an issue first.
 
-## License
+## Dataset
 
-MIT License - see LICENSE file for details.
+Training data from [Personality Classification Dataset on Kaggle](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data)
 
 ---
 
