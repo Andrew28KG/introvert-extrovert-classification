@@ -54,7 +54,7 @@ st.markdown("""
     .app-card {
         background: rgba(255, 255, 255, 0.95);
         color: #2d3748;
-        padding: 3rem;
+        padding: 2.5rem;
         border-radius: 20px;
         margin: 2rem 0;
         box-shadow: 0 15px 35px rgba(0,0,0,0.2);
@@ -62,10 +62,11 @@ st.markdown("""
         border: 1px solid rgba(255, 255, 255, 0.3);
         transition: all 0.3s ease;
         cursor: pointer;
-        height: 350px;
+        min-height: 380px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        overflow: hidden;
     }
     
     .app-card:hover {
@@ -74,31 +75,42 @@ st.markdown("""
     }
     
     .app-icon {
-        font-size: 5rem;
+        font-size: 4.5rem;
         text-align: center;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
     
     .app-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 600;
         color: #2c3e50;
         text-align: center;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     
     .app-description {
-        font-size: 1.1rem;
-        line-height: 1.6;
+        font-size: 1.05rem;
+        line-height: 1.5;
         color: #4a5568;
         text-align: center;
         flex-grow: 1;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
     
     .app-features {
-        font-size: 1rem;
+        font-size: 0.95rem;
         color: #718096;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
+        line-height: 1.4;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     
     .welcome-section {
@@ -180,7 +192,7 @@ def main():
             <div class="app-title">Scenario-Based Assessment</div>
             <div class="app-description">
                 Navigate through 8 realistic life situations and make authentic choices that reveal your personality. 
-                Experience immersive storytelling with detailed behavioral analysis and comprehensive insights.
+                Experience immersive storytelling with detailed behavioral analysis.
             </div>
             <div class="app-features">
                 🎯 Realistic life scenarios<br>
@@ -202,7 +214,7 @@ def main():
             <div class="app-title">AI Personality Art Generator</div>
             <div class="app-description">
                 Transform your personality into stunning artwork using OpenAI's DALL-E 3! Answer thoughtful questions 
-                about your preferences and generate beautiful, personalized AI art that reflects your unique traits.
+                and generate beautiful, personalized AI art that reflects your unique traits.
             </div>
             <div class="app-features">
                 🤖 AI-generated images using DALL-E 3<br>
@@ -293,10 +305,10 @@ def main():
         </p>
         <p style="color: rgba(255, 255, 255, 0.7); margin-top: 1rem; font-size: 0.9rem;">
             Built with ❤️ using Streamlit, OpenAI DALL-E 3, Plotly, and advanced AI analysis • 
-            Generated on {datetime.now().strftime('%B %Y')}
+            Generated on {current_date}
         </p>
     </div>
-    """.format(datetime=datetime), unsafe_allow_html=True)
+    """.format(current_date=datetime.now().strftime('%B %Y')), unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main() 
