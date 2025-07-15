@@ -21,6 +21,13 @@ An interactive platform that combines machine learning and AI to help you discov
 - Download high-quality 1024x1024 images
 - 3-5 minute creative experience
 
+### 📊 Analytics Dashboard
+- **[View Live Dashboard →](https://lookerstudio.google.com/reporting/2afa875c-2e09-428d-8554-cd73e45f72f6)**
+- Interactive Looker Studio report with comprehensive data visualizations
+- Real-time insights into personality patterns and behavioral trends
+- Model performance metrics and feature importance analysis
+- Cross-filterable charts and dynamic exploration tools
+
 ## Quick Start
 
 ### What You Need
@@ -101,6 +108,7 @@ personality-discovery-hub/
 - **OpenAI DALL-E 3** - AI art generation
 - **scikit-learn** - Machine learning
 - **Plotly** - Interactive charts
+- **Looker Studio** - Analytics dashboard and data visualization
 
 ## What's Included
 
