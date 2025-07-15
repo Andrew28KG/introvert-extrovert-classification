@@ -112,12 +112,12 @@ personality-discovery-hub/
 
 ## What's Included
 
-| Feature | Scenario Assessment | AI Art Generator |
-|---------|-------------------|------------------|
-| Duration | 5-8 minutes | 3-5 minutes |
-| Method | Story scenarios | Art questions |
-| Output | Analysis report | AI artwork |
-| Requirements | None | OpenAI API key |
+| Feature | Scenario Assessment | AI Art Generator | Analytics Dashboard |
+|---------|-------------------|------------------|-------------------|
+| Duration | 5-8 minutes | 3-5 minutes | Self-paced exploration |
+| Method | Story scenarios | Art questions | Interactive data visualization |
+| Output | Analysis report | AI artwork | Live insights & metrics |
+| Requirements | None | OpenAI API key | Web browser |
 
 ## Contributing
 
